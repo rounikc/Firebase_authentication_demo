@@ -1,0 +1,19 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",                  // This helps TypeScript resolve the module paths
+    "paths": {
+      "@env": ["./env.d.ts"]         // Map the '@env' module to env.d.ts
+    }
+  },
+  "include": [
+    "src/**/*",                      // Include your source files
+    "env.d.ts"                       // Ensure env.d.ts is included
+  ],
+  "exclude": [
+    "node_modules",
+    "assets",
+    "Screens"
+  ]
+}
