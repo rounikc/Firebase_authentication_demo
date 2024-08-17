@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 //web app Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC4w6oQTJz_RUbVio7GqedgM8oWu_P_og4",
-  authDomain: "rnauth-kbandhu.firebaseapp.com",
-  projectId: "rnauth-kbandhu",
-  storageBucket: "rnauth-kbandhu.appspot.com",
-  messagingSenderId: "535222088709",
-  appId: "1:535222088709:web:a228badf6f481297a0586c"
+  apiKey: "REDACTED",
+  authDomain: "REDACTED",
+  projectId: "REDACTED",
+  storageBucket: "REDACTED",
+  messagingSenderId: "REDACTED",
+  appId: "REDACTED"
 };
 
 //Iinitialize Firebase
