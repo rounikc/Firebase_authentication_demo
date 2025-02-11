@@ -14,6 +14,7 @@ const Loginscreen = () => {
         try{
             const response = await signInWithEmailAndPassword(auth, email, password);
             console.log(response);
+            alert('YIPEEEEEEE!!!!!!')
         } catch(error: any) {
             console.log(error);
             alert('SignIn failed: ' + error.message);
